@@ -9,4 +9,13 @@ return {
   },
 
   { "nvim-telescope/telescope.nvim" },
+
+  { "ellisonleao/gruvbox.nvim" },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  },
 }
